@@ -26,3 +26,44 @@ Aquivos importantes:
   - `Daniele Farias — dofarias@gmail.com`
   - `Marcelo Caroprezo — marcelo.caroprezo2@gmail.com`
   - `Patrícia Nascimento — pathilink@gmail.com`
+
+---
+
+## 📋 Sobre o Projeto
+
+Predição de **churn** (cancelamento) de clientes de telecomunicações. O modelo é treinado com os dados históricos de [history.csv](history.csv) (coluna alvo: `Churn`) e gera previsões para cada linha de [inference.csv](inference.csv), exportadas em um arquivo `.csv` no padrão exemplificado em [NOTEBOOK.ipynb](NOTEBOOK).
+
+## 📁 Estrutura do Repositório
+
+```text
+Hackathon_Terra_Signal/
+├── SETUP.md                        # Guia de configuração inicial
+├── NOTEBOOK.ipynb                  # Notebook inicial de exemplo
+├── history.csv                     # Dados históricos (treinamento, alvo: Churn)
+├── inference.csv                   # Dados novos para previsão
+├── LICENSE                         # Licença do projeto
+├── assets/                         # GIFs do guia de setup
+├── Analise Exploratoria/           # Notebooks de EDA
+├── ABT/                            # Construção da base analítica (exercício replicado no notebook de Treino)
+├── Treino/                         # Treinamento e seleção do modelo, além de avaliação de modelos intermediários
+├── Inferencia/                     # Inferência e ações recomendadas
+├── apps/churn-prediction-acoes-app # App para informar os dados do Clientes e retornar a probabilidade de Churn e recomendação de ações
+└── Apresentacao/                   # Apresentação e vídeo de demonstração do App
+```
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Databricks** — notebooks, compute serverless e Unity Catalog
+- **SQL / PySpark** — preparação e transformação dos dados
+- **XGBoost + MLflow** — treinamento, rastreamento e registro do modelo no Unity Catalog
+- **Databricks Apps / Model Serving** — demonstração e consumo do modelo
+
+## ✅ Pré-requisitos
+
+- Conta e workspace Databricks (ver instruções no [SETUP.md](SETUP.md))
+- Fork deste repositório conectado a um Git folder do workspace
+- Permissões de acesso aos dados e compute da equipe
+
+## 📄 Licença
+
+Distribuído sob a licença descrita em [LICENSE](LICENSE).
