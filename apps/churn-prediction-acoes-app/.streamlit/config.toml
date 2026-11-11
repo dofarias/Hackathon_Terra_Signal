@@ -1,0 +1,8 @@
+# Tema Terra Signal — Telecom, azul corporativo
+[theme]
+base = "light"
+primaryColor = "#0057B8"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#EAF2FB"
+textColor = "#0B1B33"
+font = "sans serif"
