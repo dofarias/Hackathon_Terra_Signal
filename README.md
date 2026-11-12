@@ -48,7 +48,8 @@ Hackathon_Terra_Signal/
 ├── Treino/                         # Treinamento e seleção do modelo, além de avaliação de modelos intermediários
 ├── Inferencia/                     # Inferência e ações recomendadas
 ├── apps/churn-prediction-acoes-app # App para informar os dados do Clientes e retornar a probabilidade de Churn e recomendação de ações
-└── Apresentacao/                   # Apresentação e vídeo de demonstração do App
+├── docs/                           # Documentação de apoio
+└── Apresentacao/                   # Apresentação, planilha e simulação e vídeo de demonstração do App
 ```
 
 ## 🛠️ Tecnologias Utilizadas
